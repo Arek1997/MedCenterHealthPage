@@ -11,3 +11,7 @@ Tech stack used:
  
  Solved problems:
   - Fixed bug with animations issue on mobile devices. The previous library hasn't been updated for 4 years, that caused some issues on mobile devices.
+  
+  ToDo:
+  - Replace old jquery slider on new javascript slider and config it.
+ 
