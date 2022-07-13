@@ -26,6 +26,10 @@ body {
 	color: colors.$lightDark;
 }
 
+html.sr .load-hidden {
+	visibility: hidden;
+}
+
 .turnOffScroll {
 	overflow: hidden;
 }
