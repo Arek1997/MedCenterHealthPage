@@ -29,7 +29,7 @@ ScrollReveal().reveal('header button', {
 
 ScrollReveal().reveal('.offers-one__text', {
 	origin: 'bottom',
-	viewFactor: percentOfElementView,
+	viewFactor: 0.5,
 });
 
 // lab tests
