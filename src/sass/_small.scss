@@ -1,0 +1,39 @@
+@media (min-width: 400px) {
+	.offers-one {
+		&__card {
+			height: 380px;
+		}
+	}
+}
+@media (min-width: 576px) {
+	.offers-one {
+		&__card {
+			height: 330px;
+		}
+	}
+
+	.support {
+		&__container {
+			display: flex;
+			column-gap: 5rem;
+		}
+
+		&__box1 {
+			width: 50%;
+
+			h2 {
+				font-size: 3rem;
+			}
+
+			strong {
+				font-size: 10rem;
+			}
+		}
+
+		&__box2 {
+			width: 50%;
+			margin-top: 0;
+			padding: 1em;
+		}
+	}
+}

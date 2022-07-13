@@ -1,0 +1,47 @@
+@use 'colors';
+
+.wrapper {
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.section {
+	padding: 3em 1.5em;
+	overflow-x: hidden;
+}
+
+.button {
+	position: relative;
+	padding: 0.8em 2.5em;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: colors.$white;
+	transition: color 0.3s;
+	letter-spacing: 2px;
+	overflow: hidden;
+	z-index: 1;
+	border-radius: 8px;
+
+	&:hover {
+		color: colors.$white;
+	}
+
+	&:hover::before {
+		transform: translateY(0);
+	}
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #222;
+		transform: translateY(105%);
+		transition: transform 0.3s;
+		z-index: -1;
+	}
+}
