@@ -61,6 +61,7 @@ button {
 		width: 10px;
 		height: 10px;
 		margin: 0 1em !important;
+		transition: transform 0.3s;
 
 		&-active {
 			transform: scale(2);
